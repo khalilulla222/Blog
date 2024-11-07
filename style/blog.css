@@ -1,0 +1,17 @@
+label{
+    display: block;
+    margin-top: 7px;
+}
+fieldset > label {
+    display: inline;
+    margin: 30px;
+    
+}
+fieldset  {
+    margin-top: 10px;
+    display: inline;
+    
+}
+fieldset > textarea {
+    width: 400px;
+}

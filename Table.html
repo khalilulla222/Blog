@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Table</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style/nav.css">
     <style>
         thead > tr {
             background-color: chartreuse;
         }
         table{
             border-collapse: collapse;
+            text-align: center;
         }
         td{
             border: 1px solid;
+            padding: 5px;
         }
     </style>
 </head>
 <body>
     <h2>Html Table</h2>
+ <header>
+    <nav>
+        <ul>
+            <li><a href="Blog">Blog</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="index.html">index</a></li>
+        </ul>
+ </header>
+ <main>
     <table>
+        <caption>employee salary data</caption>
         <thead>
             <tr>
                 <td>No</td>
@@ -55,8 +67,13 @@
             </tr>
         </tbody>
         <tfoot>
-
+            <tr>
+                <td colspan="2">total employee: 4</td>
+                <td colspan="2">total earn: $4600</td>
+                
+            </tr>
         </tfoot>
     </table>
+ </main>
 </body>
 </html>
